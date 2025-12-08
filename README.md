@@ -3,10 +3,8 @@
 
  – Intrusion Detection System (UNSW‑NB15 + Improved XGBoost Model)
 
-
-
 1. Project Overview
-This project implements a multi‑class Intrusion Detection System (IDS) using the UNSW‑NB15 dataset.
+2. This project implements a multi‑class Intrusion Detection System (IDS) using the UNSW‑NB15 dataset.
 
 A novel, optimized pipeline was created based on:
 
@@ -22,7 +20,6 @@ Detailed evaluation & visualization
 
 The output model detects 10 attack categories 
 including DoS, Reconnaissance, Exploits, Fuzzers, Shellcode, Worms, Generic, Backdoor, Analysis, and Normal traffic.
-
 
 2. Dataset Information
 
@@ -104,5 +101,6 @@ File Purpose
 │── UNSW_NB15_testing-set.csv
 │── README.md
 │
+
 
 
