@@ -7,11 +7,17 @@
 
 1. Project Overview
 This project implements a multi‑class Intrusion Detection System (IDS) using the UNSW‑NB15 dataset.
+
 A novel, optimized pipeline was created based on:
+
 Advanced data preprocessing
+
 Sparse matrix transformation
+
 Class imbalance handling
+
 Improved multi‑class XGBoost model
+
 Detailed evaluation & visualization
 
 The output model detects 10 attack categories 
@@ -21,7 +27,9 @@ including DoS, Reconnaissance, Exploits, Fuzzers, Shellcode, Worms, Generic, Bac
 2. Dataset Information
 
 Dataset Used: UNSW‑NB15 (Train & Test CSV files)
+
 Download Link:
+
 https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15
 
 Files required in the project folder:
@@ -37,6 +45,7 @@ Files required in the project folder:
 pip install numpy pandas scipy scikit-learn xgboost lightgbm joblib matplotlib seaborn imbalanced-learn
 
 2️.Run the Training Script
+
 python app.py
 
 
@@ -59,21 +68,35 @@ File Purpose
 5. Model Architecture Summary
    
 .Sparse‑aware preprocessing pipeline
+
 .One‑Hot‑Encoded categorical features
+
 .Standardized numerical features
+
 .Inverse‑frequency class balancing
+
 .Optional GBAC iterative weighting
+
 .Multi‑class XGBoost (multi:softprob)
+
 .Early stopping for best model selection
 
+
 7. Evaluation Metrics (Your Model Results)
+   
 .Metric	Value
+
 .Accuracy	83.52%
+
 .Macro F1‑Score	0.6180
+
 .Confusion Matrix	Saved as image + CSV
+
 .Detailed classification metrics are printed automatically after training.
 
-8. Project Structure
+
+9. Project Structure
+
 📁 IntrusionDetectionSystem/
 |── artifacts_improved/
 │── app.py
@@ -81,4 +104,5 @@ File Purpose
 │── UNSW_NB15_testing-set.csv
 │── README.md
 │
+
 
