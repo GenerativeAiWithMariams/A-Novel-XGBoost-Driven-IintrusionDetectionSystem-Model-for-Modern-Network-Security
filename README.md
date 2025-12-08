@@ -46,13 +46,18 @@ After running the script, the folder artifacts_improved/ will contain automatica
 File Purpose
 
 .preprocessor_improved.joblib	Full preprocessing pipeline
+
 .label_encoder_improved.joblib	Encodes attack category labels
+
 .xgb_multiclass_improved.model	Final trained IDS model
+
 .confusion_matrix.png	Heatmap of class predictions
+
 .confusion_matrix.csv	Numerical confusion matrix
 
 
 5. Model Architecture Summary
+   
 .Sparse‑aware preprocessing pipeline
 .One‑Hot‑Encoded categorical features
 .Standardized numerical features
@@ -61,14 +66,14 @@ File Purpose
 .Multi‑class XGBoost (multi:softprob)
 .Early stopping for best model selection
 
-6. Evaluation Metrics (Your Model Results)
+7. Evaluation Metrics (Your Model Results)
 .Metric	Value
 .Accuracy	83.52%
 .Macro F1‑Score	0.6180
 .Confusion Matrix	Saved as image + CSV
 .Detailed classification metrics are printed automatically after training.
 
-7. Project Structure
+8. Project Structure
 📁 IntrusionDetectionSystem/
 |── artifacts_improved/
 │── app.py
@@ -76,3 +81,4 @@ File Purpose
 │── UNSW_NB15_testing-set.csv
 │── README.md
 │
+
