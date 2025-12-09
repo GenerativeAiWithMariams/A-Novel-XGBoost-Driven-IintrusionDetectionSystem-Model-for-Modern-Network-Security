@@ -1,0 +1,36 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+
+# Machine learning
+scikit-learn
+lightgbm
+xgboost
+
+# Preprocessing & utilities
+joblib
+
+# Optional but useful for charts and debugging
+matplotlib
+seaborn
+
+# For Jupyter Notebook users (optional)
+jupyter
+tensorflow
+
+
+
+streamlit==1.37.0
+pandas==2.1.4
+numpy==1.26.4
+scikit-learn==1.4.2
+scipy==1.12.0
+xgboost==2.0.3
+lightgbm==4.1.0
+catboost==1.2.2
+imbalanced-learn==0.12.2
+matplotlib==3.8.0
+seaborn==0.13.0
+joblib==1.3.2
+python-dotenv==1.0.1
