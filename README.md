@@ -22,11 +22,17 @@ Files required in the project folder:
 1.First of all create virtual environement
 
 install python3.10 in your system
+
 Then create folder and open in open VS Code
+
 Run commands in Terminal in sequence:
+
 . python3.10 --version
+
 . python3.10 -m venv myenv 
+
 . .\myenv\Scripts\activate
+
 
 
 2.Install Required Libraries in terminal
