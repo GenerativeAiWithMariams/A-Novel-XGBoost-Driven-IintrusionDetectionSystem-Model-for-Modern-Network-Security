@@ -41,12 +41,20 @@ This project is based on **supervised machine learning** for binary classificati
 ## 📁 Files
 
 ```
-FrontendStreamlit.py        → Main Streamlit application
-preprocessor_sparse.joblib  → Preprocessing pipeline (sparse)
-label_encoder.joblib        → Label encoder for class mapping
-lgb_binary_model.txt        → Trained LightGBM model
-train_medians.joblib        → Median values of training numeric features
-README.md                   → Project documentation
+📁 IntrusionDetectionSystem/
+│── artifacts_improved/                 # Contains pre-trained model artifacts
+│   ├── preprocessor_sparse.joblib
+│   ├── label_encoder.joblib
+│   ├── lgb_binary_model.txt
+│   └── train_medians.joblib
+│
+│── app2binary.py                       # Python script for single/batch predictions
+│── FrontendStreamlit.py                # Streamlit UI for IDS prediction
+│── README.md                           # Project documentation
+│── requirements.txt                    # Python dependencies
+│── UNSW_NB15_training-set.csv          # Training dataset (optional for reference)
+│── UNSW_NB15_testing-set.csv           # Testing dataset (optional for reference)
+
 ```
 
 ---
