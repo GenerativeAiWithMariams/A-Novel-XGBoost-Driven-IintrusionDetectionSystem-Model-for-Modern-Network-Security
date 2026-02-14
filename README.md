@@ -41,7 +41,7 @@ This project is based on **supervised machine learning** for binary classificati
 ## 📁 Files
 
 ```
-ids_predictor_app.py        → Main Streamlit application
+FrontendStreamlit.py        → Main Streamlit application
 preprocessor_sparse.joblib  → Preprocessing pipeline (sparse)
 label_encoder.joblib        → Label encoder for class mapping
 lgb_binary_model.txt        → Trained LightGBM model
