@@ -64,7 +64,7 @@ pip install streamlit numpy pandas scipy joblib lightgbm matplotlib seaborn
 ## ▶️ How to Run the Project
 
 ```bash
-streamlit run ids_predictor_app.py
+streamlit run FrontendStreamlit.py
 ```
 
 A browser window will open showing the interactive IDS prediction interface.
