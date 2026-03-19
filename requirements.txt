@@ -3,17 +3,21 @@ numpy
 pandas
 scipy
 
+
 # Machine learning
 scikit-learn
 lightgbm
 xgboost
 
+
 # Preprocessing & utilities
 joblib
+
 
 # Optional but useful for charts and debugging
 matplotlib
 seaborn
+
 
 # For Jupyter Notebook users (optional)
 
